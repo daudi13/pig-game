@@ -98,3 +98,11 @@ btnNew.addEventListener('click', function () {
     init();
 })
 
+
+//using the esc key to restart the game
+
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+        init();
+    }
+})
